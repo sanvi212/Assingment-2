@@ -1,10 +1,7 @@
 body{
+    font-family: "Quicksand";
     margin-left: 140px;
     margin-right: 140px;
-    font-family: "Quicksand", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
 }
 
 .nav-container{
@@ -70,9 +67,6 @@ body{
     font-weight: 600;
 }
 
-
-
-
 .hero-section{
     display: flex;
     align-items: center;
@@ -115,4 +109,567 @@ body{
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 700;
+}
+
+/* hero section ended */
+
+/* standardc-urriculum-conteiner */
+
+.standardc-urriculum-conteiner{
+    background-image: url(assets/bg.png);
+    width: auto;
+}
+
+.standardc-urriculum-title{
+    margin-top: 60px;
+    color: rgb(0, 0, 0);
+    font-size: 46px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;;
+}
+
+.cards-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 80px;
+}
+
+/* card 1 */
+
+.card-1{
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    width: 367.8px;
+    height: 476.78px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-1 > h4{
+    color: rgb(32, 32, 32);
+    font-size: 24.52px;
+    font-weight: 700;
+}
+
+.card-1 > p{
+    color: rgb(128, 128, 128);
+    font-size: 15.09px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+}
+
+.card-1 > button{
+    color: rgb(100, 200, 255);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    background-color: white;
+    border: none;
+    margin-top: 38px;
+}
+
+
+/* card 2 */
+
+.card-2{
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    width: 367.8px;
+    height: 476.78px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-2 > h4{
+    color: rgb(32, 32, 32);
+    font-size: 24.52px;
+    font-weight: 700;
+}
+
+.card-2 > p{
+    color: rgb(128, 128, 128);
+    font-size: 15.09px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+}
+
+.card-2 > button{
+    color: rgb(240, 170, 0);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    background-color: white;
+    border: none;
+    margin-top: 38px;
+}
+
+/* card 3 */
+
+.card-3{
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    width: 367.8px;
+    height: 476.78px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-3 > h4{
+    color: rgb(32, 32, 32);
+    font-size: 24.52px;
+    font-weight: 700;
+}
+
+.card-3 > p{
+    color: rgb(128, 128, 128);
+    font-size: 15.09px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+}
+
+.card-3 > button{
+    color: rgb(135, 0, 255);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    background-color: white;
+    border: none;
+    margin-top: 38px;
+}
+
+.slider{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.slider > button{
+    border-radius: 30px;
+    background: rgb(254, 163, 1);
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 24px;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    border: none;
+}
+
+
+/* Our-Stories */
+
+.Our-Stories-conteiner{
+    margin-top: 60px;
+    background: url(assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    background-size: auto;
+    width: auto;
+    height: auto;
+}
+
+.Our-Stories-title{
+    color: rgb(0, 0, 0);
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 58px;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.allcard-conteinar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* card 1 */
+
+.card-conteiner{
+    margin-top: 80px;
+    display: flex;
+    gap: 19px;
+}
+
+.cards-1{
+    position: relative;
+    width: 540.27px;
+    height: 630.52px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    position: relative;
+}
+
+.cards-1-down{
+    padding-left: 38px;
+    position: absolute;
+    bottom: 18px;
+
+}
+
+.cards-1-img > img{
+    border-radius: 16px 16px 0px 0px;
+}
+
+.cards-date{
+    width: 174.51px;
+    height: 47.93px;
+    border-radius: 47.93px;
+    background: rgb(60, 216, 232);
+    color: rgb(255, 255, 255);
+    font-size: 15.34px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards-1-down > h3{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 51px;
+}
+
+.cards-1-down > p{
+    color: rgb(102, 102, 102);
+    font-size: 15.34px;
+    font-weight: 500;
+    line-height: 28.76px;
+}
+
+.date-div{
+    margin-bottom: 36px;
+}
+
+/* mini card */
+
+.mini-card-conteiner{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 19px;
+}
+
+/* mini card 1 */
+
+.mini-cards-1{
+    width: 540.27px;
+    height: 630.52px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    width: 290.69px;
+    height: 301.61px;
+    position: relative;
+}
+
+.mini-cards-1-down{
+    padding-left: 38px;
+    bottom: 18px;
+    position: absolute;
+    top: 155px;
+    padding-bottom: ;
+
+}
+
+.mini-cards-1-img > img{
+    border-radius: 16px 16px 0px 0px;
+}
+
+.mini-cards-1-date{
+    width: 174.51px;
+    height: 38.35px;
+    border-radius: 47.93px;
+    background: rgb(149, 178, 38);
+    color: rgb(255, 255, 255);
+    font-size: 15.34px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mini-cards-1-down > h3{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 51px;
+    margin-top: 24px;
+}
+
+
+.date-div{
+    margin-bottom: 36px;
+}
+
+/* mini card 2 */
+
+.mini-cards-2{
+    width: 540.27px;
+    height: 630.52px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    width: 290.69px;
+    height: 301.61px;
+    position: relative;
+}
+
+.mini-cards-2-down{
+    padding-left: 38px;
+    bottom: 18px;
+    position: absolute;
+    top: 155px;
+    padding-bottom: ;
+
+}
+
+.mini-cards-2-img > img{
+    border-radius: 16px 16px 0px 0px;
+}
+
+.mini-cards-2-date{
+    width: 174.51px;
+    height: 38.35px;
+    border-radius: 47.93px;
+    background: rgb(93, 88, 240);
+    color: rgb(255, 255, 255);
+    font-size: 15.34px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mini-cards-2-down > h3{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 51px;
+    margin-top: 24px;
+}
+
+
+.date-div{
+    margin-bottom: 36px;
+}
+
+/* mini card 3 */
+
+.mini-cards-3{
+    width: 540.27px;
+    height: 630.52px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    width: 290.69px;
+    height: 301.61px;
+    position: relative;
+}
+
+.mini-cards-3-down{
+    padding-left: 38px;
+    bottom: 18px;
+    position: absolute;
+    top: 155px;
+    padding-bottom: ;
+
+}
+
+.mini-cards-3-img > img{
+    border-radius: 16px 16px 0px 0px;
+}
+
+.mini-cards-3-date{
+    width: 174.51px;
+    height: 38.35px;
+    border-radius: 47.93px;
+    background: rgb(149, 178, 38);
+    color: rgb(255, 255, 255);
+    font-size: 15.34px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mini-cards-3-down > h3{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 51px;
+    margin-top: 24px;
+}
+
+
+.date-div{
+    margin-bottom: 36px;
+}
+
+
+/* mini card 4 */
+
+.mini-cards-4{
+    width: 540.27px;
+    height: 630.52px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    width: 290.69px;
+    height: 301.61px;
+    position: relative;
+}
+
+.mini-cards-4-down{
+    padding-left: 38px;
+    bottom: 18px;
+    position: absolute;
+    top: 155px;
+    padding-bottom: ;
+
+}
+
+.mini-cards-4-img > img{
+    border-radius: 16px 16px 0px 0px;
+}
+
+.mini-cards-4-date{
+    width: 127.44px;
+    height: 38.35px;
+    border-radius: 47.93px;
+    background: rgb(149, 178, 38);
+    color: rgb(255, 255, 255);
+    font-size: 15.34px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mini-cards-4-down > h3{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 51px;
+    margin-top: 24px;
+}
+
+
+.date-div{
+    margin-bottom: 36px;
+}
+
+.View-All-btn-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.View-All-btn{
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+footer{
+    width: auto;
+    height: 519px;
+    background: rgb(1, 172, 253);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 170px;
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    width: 350px;
+    justify-content: start;
+}
+
+.footer-logo > img{
+    width: 120px;
+    height: 120px;
+    
+}
+
+.footer-logo > h3{
+    color: rgb(255, 255, 255);
+    font-size: 42.14px;
+    font-weight: 700px;
+    height: 100%;
+}
+
+.Kids-Education > p{
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.86);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.About-School{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+.footer-div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-div a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+.social h3{
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.social div{
+    display: flex;
+    gap: 10px;
 }
