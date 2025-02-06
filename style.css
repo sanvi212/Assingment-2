@@ -601,7 +601,7 @@ body{
 footer{
     width: auto;
     height: 519px;
-    background: rgb(1, 172, 253);
+    background: rgb(7, 140, 202);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -672,4 +672,144 @@ footer{
 .social div{
     display: flex;
     gap: 10px;
+}
+
+
+/* small device responsive */
+
+@media only screen and (min-width: 671px){
+    .navlogo2{
+        display: none;
+    }
+
+    .hide{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .fas{
+        width: 22px;
+        height: 15px;
+    }
+
+
+    .responsive-nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 46px;
+        left: 16px;
+        margin-top: 12px;
+    }
+
+    .navlogo2{
+        margin-top: 12px;
+        margin-left: 16px;
+    }
+
+    .nav-logo{
+        display: none;
+    }
+
+    .nav-li-container{
+        display: none;
+
+    }
+
+    .nav-btn-container{
+        display: none;
+    }
+    
+
+
+    .hero-section{
+        flex-direction: column-reverse;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+
+    }
+    .cards-container{
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 22;
+        
+    }
+    .slider{
+        display: none;
+    }
+
+    .standardc-urriculum-title{
+        font-size: 26px;
+    }
+
+    .standardc-urriculum-conteiner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .card-1, .card-2, .card-3{
+        margin-bottom: 24px;
+        padding: 36px 28px 36px 28px;
+    }
+
+    .cards-1, .cards-1-img{
+        display: none;
+    }
+
+
+    .mini-card-conteiner{
+        margin-left: 16px;
+        margin-right: 16px;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .footer-container{
+        flex-direction: column;
+        gap: 32px;
+        left: 0;
+        justify-content: start;
+    }
+
+    
+    footer{
+        width: auto;
+        height: auto;
+    }
+
+    .footer-logo{
+        margin-bottom: 23px;
+        margin-top: 65px;
+    }
+
+    .social > h3{
+        margin-bottom: 45px;
+    }
+
+    .About-School{
+        margin-top: 32px;
+    }
+
+    .social > div{
+        margin-bottom: 68px;
+    }
+    
 }
